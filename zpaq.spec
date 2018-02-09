@@ -6,6 +6,7 @@ License:	BSD
 Group:		Archiving/Compression
 Url:		http://www.mattmahoney.net/dc/zpaq.html
 Source0:	%{name}715.zip
+Patch0: zpaq-7.15-Build-a-shared-library.patch
 BuildRequires:  gcc-c++
 BuildRequires:  make
 
