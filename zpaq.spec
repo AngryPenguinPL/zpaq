@@ -33,6 +33,7 @@ versions of the program.
 rm -f *.exe
 
 %build
+%make CPPFLAGS+=NOJIT
 %make CXXFLAGS="%{optflags}"
 
 %install
