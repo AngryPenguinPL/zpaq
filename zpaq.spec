@@ -32,6 +32,8 @@ versions of the program.
 rm -f *.exe
 
 %build
+export CC=gcc
+export CXX=g++
 %make CXXFLAGS="%{optflags}"
 
 %install
