@@ -6,6 +6,7 @@ License:	BSD
 Group:		Archiving/Compression
 Url:		http://www.mattmahoney.net/dc/zpaq.html
 Source0:	%{name}715.zip
+BuildRequires:  gcc-c++
 
 %description
 zpaq is a journaling archiver optimized for user-level incremental
